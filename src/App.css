@@ -1,0 +1,93 @@
+body {
+  background-color: beige;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.3;
+  color: rgb(143, 2, 2);
+}
+
+#display {
+  display: flex;
+  flex-direction: row;
+}
+
+.taskText {
+  flex: 1;
+  color: rgb(4, 82, 146);
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.taskBg {
+  background-color: rgb(221, 194, 194);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.taskBg div{
+  display: text;
+  align-items: center;
+}
+
+.taskBg .iconsWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.taskBg .iconsWrap span {
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  color: #036737;
+}
+
+
+.taskBg .iconsWrap span:focus-visible {
+  outline: none;
+}
+
+.taskBg .iconsWrap span:hover {
+  color: rgba(17, 122, 193, 0.855);
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.taskNumber {
+  color: rgb(4, 82, 146);
+  border: 1px solid rgb(4, 82, 146);
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: rgba(3, 34, 56, 0.801);
+}
+
